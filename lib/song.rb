@@ -23,7 +23,9 @@ class Song
     new_song
   end
   
-  def artist_name=
+  def artist_name=(name)
+    name = 
+  end
 end
 
 # file = "Real Estate - Green Aisles - country.mp3"
