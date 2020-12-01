@@ -23,10 +23,6 @@ class Song
     new_song
   end
   
-  def artist_name=(artist)
-    Artist.find_or_create_by_name(artist)
-    add_song(name)
-  end
 end
 
 # file = "Real Estate - Green Aisles - country.mp3"
