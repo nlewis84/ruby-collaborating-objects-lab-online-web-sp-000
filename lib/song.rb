@@ -25,10 +25,5 @@ class Song
   
   def artist_name=(artist)
     self.artist = Artist.find_or_create_by_name(artist)
-
-    
   end
-
 end
-
-# file = "Real Estate - Green Aisles - country.mp3"
