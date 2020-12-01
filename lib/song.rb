@@ -18,6 +18,7 @@ class Song
   
   def self.new_by_filename(filename)
     filename = filename.split(" - ")
+    binding.pry
     artist = filename[0] 
     song = filename[1]
     genre = filename[2]
